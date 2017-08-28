@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Floating Camera</string>
+
+    <string name="flash_key">Flash</string>
+    <string name="white_balance_key">White balance</string>
+    <string name="color_filter_key">Color filter</string>
+    <string name="picture_quality_key">Picture quality</string>
+    <string name="picture_format_key">Picture format</string>
+    <string name="picture_size_key">Picture size</string>
+    <string name="video_size_key">Video size</string>
+
+    <string name="startButton_key">startButton</string>
+    <string name="stopButton_key">stopButton</string>
+    <string name="whiteBalanceButton_key">whiteBalanceButton</string>
+    <string name="colorFiltertButton_key">colorFiltertButton</string>
+    <string name="flashButton_key">flashButton</string>
+    <string name="pictureQualityButton_key">pictureQualityButton</string>
+    <string name="pictureSizeButton_key">pictureSizeButton</string>
+    <string name="pictureFormatButton_key">pictureFormatButton</string>
+    <string name="videoSizeButton_key">videoSizeButton</string>
+
+    <string name="old_picture_size_key">old_picture_size</string>
+    <string name="old_video_size_key">old_video_size</string>
+    <string name="first_time_launch_key">first_time_launch</string>
+
+    <string name="help">1.Thip app provide you the facility to capture images and record videos while using other applications\n\n
+                        2.Click on the start button to open camera preview and stop to close it\n\n
+                        3.In camera preview tap the white button to take pictures\n\n
+                        4.In camera preview long press the white button to start video recording and click to stop recording\n\n
+                        5.You can adjust the camera position by dragging it through the screen\n\n
+                        6.You can also resize camera by dragging it through end corner\n\n
+                        7.You can customize your camera by using different camera setting\n\n
+                        8.Do not press clear all apps from recent apps during video recording</string>
+    <string name="old_color_filter_key">old_color_filter</string>
+    <string name="old_white_balance_key">old_white_balance</string>
+
+implement error handling when camera is not available to app
+
+</resources>

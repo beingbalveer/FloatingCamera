@@ -4,6 +4,8 @@ Floating Camera is an android app which is usefull for clicking the pictures or 
 
 It has a small preview window which can be dragged to any part of screen and can be resized accordingly
 
+![fc home](https://github.com/beingbalveer/FloatingCamera/blob/master/fc.png)
+
 ### Features
 
 * Click Picture while doing other task in phone.

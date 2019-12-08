@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/bg"
         android:orientation="vertical"
-        tools:context="com.example.android.floatingcamera.MainActivity">
+        tools:context="com.rd.android.floatingcamera.MainActivity">
 
         <TextView
                 android:layout_width="wrap_content"

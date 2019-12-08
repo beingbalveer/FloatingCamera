@@ -1,4 +1,4 @@
-package com.example.android.floatingcamera;
+package com.rd.android.floatingcamera;
 
 
 import android.app.Service;
@@ -32,7 +32,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static com.example.android.floatingcamera.CameraPreview.mCamera;
+import static com.rd.android.floatingcamera.CameraPreview.mCamera;
 
 public class CameraService extends Service {
 

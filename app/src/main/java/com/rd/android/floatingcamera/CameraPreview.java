@@ -1,4 +1,4 @@
-package com.example.android.floatingcamera;
+package com.rd.android.floatingcamera;
 
 
 import android.content.Context;

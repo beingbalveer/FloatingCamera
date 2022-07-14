@@ -13,12 +13,12 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.util.ArraySet;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.core.app.ActivityCompat;
+import androidx.collection.ArraySet;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -437,8 +437,8 @@ public class MainActivity extends AppCompatActivity {
                         }
                 }
 
-                Set<String> defaultSize = new ArraySet<>(new ArrayList<>(Arrays.asList(new String[]{"640x480"})));
-                Set<String> defaultFilter = new ArraySet<>(new ArrayList<>(Arrays.asList(new String[]{"none"})));
+                Set<String> defaultSize = new ArraySet<String>(new ArrayList<>(Arrays.asList(new String[]{"640x480"})));
+                Set<String> defaultFilter = new ArraySet<String>(new ArrayList<>(Arrays.asList(new String[]{"none"})));
                 Set<String> oldPictureSizeSet = firstTimePreferences.getStringSet(getString(R.string.old_picture_size_key), defaultSize);
                 Set<String> oldVideoSizeSet = firstTimePreferences.getStringSet(getString(R.string.old_video_size_key), defaultSize);
                 Set<String> oldColorFilter = firstTimePreferences.getStringSet(getString(R.string.old_color_filter_key), defaultFilter);
@@ -526,6 +526,7 @@ public class MainActivity extends AppCompatActivity {
         @RequiresApi(api = Build.VERSION_CODES.M)
         @Override
         public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+                super.onRequestPermissionsResult(requestCode, permissions, grantResults);
                 if (requestCode == REQUEST_CODE_PERMISSION) {
                         if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED &&
                                 grantResults[1] == PackageManager.PERMISSION_GRANTED && grantResults[2] == PackageManager.PERMISSION_GRANTED) {
@@ -549,6 +550,7 @@ public class MainActivity extends AppCompatActivity {
         @RequiresApi(api = Build.VERSION_CODES.M)
         @Override
         protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+                super.onActivityResult(requestCode, resultCode, data);
                 if (requestCode == REQUEST_CODE_OVERLAY_PERMISSION) {
                         if (Settings.canDrawOverlays(this)) {
                                 doWork();

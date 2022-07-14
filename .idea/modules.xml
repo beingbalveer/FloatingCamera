@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FloatingCamera.iml" filepath="$PROJECT_DIR$/FloatingCamera.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FloatingCamera.iml" filepath="$PROJECT_DIR$/.idea/modules/FloatingCamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FloatingCamera.app.unitTest.iml" />
     </modules>
   </component>
 </project>
